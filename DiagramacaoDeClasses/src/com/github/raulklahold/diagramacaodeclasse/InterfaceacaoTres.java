@@ -1,6 +1,6 @@
 package com.github.raulklahold.diagramacaodeclasse;
 
-public interface interfaceacao3 {
+public interface InterfaceacaoTres {
 	void exibirPagina();
 
 	void adicionarNovaAba();

@@ -1,6 +1,6 @@
 package com.github.raulklahold.diagramacaodeclasse;
 
-public interface interfaceacao2 {
+public interface InterfaceacaoDois {
 	void ligar();
 
 	void atender();
