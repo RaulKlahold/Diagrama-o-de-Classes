@@ -1,5 +1,5 @@
 package com.github.raulklahold.diagramacaodeclasse;
 
-public class AparelhoTelefonico {
+public class AparelhoTelefonico implements interfaceacao {
 
 }
