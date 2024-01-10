@@ -1,5 +1,5 @@
 package com.github.raulklahold.diagramacaodeclasse;
 
-public interface interfaceacao {
+public class NavegadorDeInternet {
 
 }
