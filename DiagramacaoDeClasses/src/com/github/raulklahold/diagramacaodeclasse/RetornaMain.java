@@ -3,6 +3,7 @@ package com.github.raulklahold.diagramacaodeclasse;
 public class RetornaMain {
 
 	public static void main(String[] args) {
+		try {
 		AparelhoTelefonico telefone = new AparelhoTelefonico();
 		ReprodutorMusical ipod = new ReprodutorMusical();
 		NavegadorDeInternet nav = new NavegadorDeInternet();
@@ -20,7 +21,11 @@ public class RetornaMain {
 		nav.exibirPagina();
 		nav.adicionarNovaAba();
 		nav.atualizarPagina();
-
+		}
+		
+		catch (Exception e) {
+			System.out.println("Erro ao realizar a ação! " + e.getMessage());
+		}
 	}
 
 }
