@@ -25,6 +25,8 @@ public class RetornaMain {
 		catch (ArithmeticException e) {
 
 			System.out.println("Erro ao realizar cálculo: não é possivel divisão por zero.");
+		} catch (NumberFormatException e) {
+			System.out.println("Erro ao realizar cálculo: Por favor, insira um número válido.");
 		} 
 	}
 
