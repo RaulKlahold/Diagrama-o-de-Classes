@@ -22,6 +22,10 @@ public class RetornaMain {
 		nav.adicionarNovaAba();
 		nav.atualizarPagina();
 		}
+		catch (ArithmeticException e) {
+
+			System.out.println("Erro ao realizar cálculo: não é possivel divisão por zero.");
+		} 
 	}
 
 }
